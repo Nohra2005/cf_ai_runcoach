@@ -1,0 +1,18 @@
+name = "cf-ai-runcoach"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./public"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "COACH_SESSION"
+class_name = "CoachSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CoachSession"]
