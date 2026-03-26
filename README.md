@@ -1,6 +1,7 @@
 # cf_ai_runcoach 🏃
 
 An AI-powered personal running coach built on Cloudflare's AI stack. Log workouts, get personalised training plans, and ask coaching questions — the coach remembers your full session history.
+🔗 Live demo: https://cf-ai-runcoach.tatiananohra5.workers.dev
 
 ## Architecture
 
